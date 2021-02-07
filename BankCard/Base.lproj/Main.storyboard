@@ -50,31 +50,40 @@
         <!--Loan-->
         <scene sceneID="nIN-d0-zsD">
             <objects>
-                <viewController id="Cyx-Nr-Nej" sceneMemberID="viewController">
+                <viewController id="Cyx-Nr-Nej" customClass="LoanViewController" customModule="BankCard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HCj-vT-8N0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="Bw9-oe-ly6">
-                                <rect key="frame" x="17" y="311.5" width="380" height="273.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bw9-oe-ly6">
+                                <rect key="frame" x="17" y="52" width="380" height="195.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Сумма Кредита" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yb1-rb-ZMa">
                                         <rect key="frame" x="0.0" y="0.0" width="380" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="fieldEditingChanged:" destination="Cyx-Nr-Nej" eventType="editingChanged" id="Fmc-d7-hyW"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Срок в месяцах" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pku-Xr-yhV">
-                                        <rect key="frame" x="0.0" y="81.5" width="380" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="380" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="fieldEditingChanged:" destination="Cyx-Nr-Nej" eventType="editingChanged" id="IIs-QJ-EBH"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Процент" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fch-7R-J0T">
-                                        <rect key="frame" x="0.0" y="163" width="380" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="111" width="380" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="fieldEditingChanged:" destination="Cyx-Nr-Nej" eventType="editingChanged" id="ukW-wd-MCN"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ежемесячный платеж 000000 ₽" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wi5-nb-rQ3">
-                                        <rect key="frame" x="0.0" y="244.5" width="380" height="29"/>
+                                        <rect key="frame" x="0.0" y="166.5" width="380" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -87,10 +96,16 @@
                         <constraints>
                             <constraint firstItem="Bw9-oe-ly6" firstAttribute="leading" secondItem="e3G-pL-0zN" secondAttribute="leading" constant="17" id="3Pc-he-PeO"/>
                             <constraint firstItem="e3G-pL-0zN" firstAttribute="trailing" secondItem="Bw9-oe-ly6" secondAttribute="trailing" constant="17" id="HIL-Gt-CFC"/>
-                            <constraint firstItem="Bw9-oe-ly6" firstAttribute="centerY" secondItem="HCj-vT-8N0" secondAttribute="centerY" id="e9U-Pk-33V"/>
+                            <constraint firstItem="Bw9-oe-ly6" firstAttribute="top" secondItem="e3G-pL-0zN" secondAttribute="top" constant="8" id="SF1-cb-5O2"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Loan" image="creditcard.fill" catalog="system" id="taU-4d-TaW"/>
+                    <connections>
+                        <outlet property="monthlyPaymentLabel" destination="wi5-nb-rQ3" id="OM6-cw-9su"/>
+                        <outlet property="nperTextField" destination="pku-Xr-yhV" id="cJt-Sh-bfl"/>
+                        <outlet property="pvTextField" destination="Yb1-rb-ZMa" id="thq-IN-stD"/>
+                        <outlet property="rateTextField" destination="Fch-7R-J0T" id="i2B-M2-mJM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tDL-DH-6QC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,6 +117,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="L4h-bC-SYi" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2VM-BU-QgY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
