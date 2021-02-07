@@ -8,5 +8,5 @@ Use xCode 12 or above to Install
 
 ## Screenshots 
 
-![Balance Screen](https://github.com/KirProto/BankCard/tree/main/BankCard/Screenshots/Screenshot01.png)
-![Calc](https://github.com/KirProto/BankCard/tree/main/BankCard/Screenshots/Screenshot02.png)
+![Balance Screen](https://github.com/KirProto/BankCard/tree/main/BankCard/Screenshots/Screenshot01.png?raw=true)
+![Loan](https://github.com/KirProto/BankCard/tree/main/BankCard/Screenshots/Screenshot02.png?raw=true)
