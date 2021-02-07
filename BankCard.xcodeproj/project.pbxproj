@@ -15,8 +15,8 @@
 		4F6C0EB125C72E890088E3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6C0EAF25C72E890088E3D6 /* LaunchScreen.storyboard */; };
 		4F6C0EBC25C93A630088E3D6 /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C0EBB25C93A630088E3D6 /* LoanViewController.swift */; };
 		4FF8F3EF25CF5E240024C82C /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8F3EE25CF5E230024C82C /* ExcelFormulas.swift */; };
-		4FF8F3F425CF6B810024C82C /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F3F225CF6B810024C82C /* Screenshot02.png */; };
-		4FF8F3F525CF6B810024C82C /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F3F325CF6B810024C82C /* Screenshot01.png */; };
+		4FF8F3FF25CF92FF0024C82C /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F3FD25CF92FF0024C82C /* Screenshot02.png */; };
+		4FF8F40025CF92FF0024C82C /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F3FE25CF92FF0024C82C /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		4F6C0EB225C72E890088E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F6C0EBB25C93A630088E3D6 /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
 		4FF8F3EE25CF5E230024C82C /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
-		4FF8F3F225CF6B810024C82C /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot02.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot02.png"; sourceTree = "<group>"; };
-		4FF8F3F325CF6B810024C82C /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot01.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot01.png"; sourceTree = "<group>"; };
+		4FF8F3FD25CF92FF0024C82C /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot02.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot02.png"; sourceTree = "<group>"; };
+		4FF8F3FE25CF92FF0024C82C /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot01.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		4FF8F3F125CF6B4F0024C82C /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				4FF8F3F325CF6B810024C82C /* Screenshot01.png */,
-				4FF8F3F225CF6B810024C82C /* Screenshot02.png */,
+				4FF8F3FE25CF92FF0024C82C /* Screenshot01.png */,
+				4FF8F3FD25CF92FF0024C82C /* Screenshot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 				4F6C0EB125C72E890088E3D6 /* LaunchScreen.storyboard in Resources */,
 				4F6C0EAE25C72E890088E3D6 /* Assets.xcassets in Resources */,
 				4F6C0EAC25C72E800088E3D6 /* Main.storyboard in Resources */,
-				4FF8F3F525CF6B810024C82C /* Screenshot01.png in Resources */,
-				4FF8F3F425CF6B810024C82C /* Screenshot02.png in Resources */,
+				4FF8F40025CF92FF0024C82C /* Screenshot01.png in Resources */,
+				4FF8F3FF25CF92FF0024C82C /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
