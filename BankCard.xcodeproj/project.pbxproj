@@ -14,9 +14,12 @@
 		4F6C0EAE25C72E890088E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6C0EAD25C72E890088E3D6 /* Assets.xcassets */; };
 		4F6C0EB125C72E890088E3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6C0EAF25C72E890088E3D6 /* LaunchScreen.storyboard */; };
 		4F6C0EBC25C93A630088E3D6 /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C0EBB25C93A630088E3D6 /* LoanViewController.swift */; };
+		4FA1177928066D190028B985 /* Screenshot05_BankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1177428066D180028B985 /* Screenshot05_BankCard.png */; };
+		4FA1177A28066D190028B985 /* Screenshot04_BankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1177528066D180028B985 /* Screenshot04_BankCard.png */; };
+		4FA1177B28066D190028B985 /* Screenshot03_BankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1177628066D190028B985 /* Screenshot03_BankCard.png */; };
+		4FA1177C28066D190028B985 /* Screenshot01_BankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1177728066D190028B985 /* Screenshot01_BankCard.png */; };
+		4FA1177D28066D190028B985 /* Screenshot02_BankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1177828066D190028B985 /* Screenshot02_BankCard.png */; };
 		4FF8F3EF25CF5E240024C82C /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8F3EE25CF5E230024C82C /* ExcelFormulas.swift */; };
-		4FF8F40525CF93C50024C82C /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F40325CF93C50024C82C /* Screenshot01.png */; };
-		4FF8F40625CF93C50024C82C /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8F40425CF93C50024C82C /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +32,12 @@
 		4F6C0EB025C72E890088E3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F6C0EB225C72E890088E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F6C0EBB25C93A630088E3D6 /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
+		4FA1177428066D180028B985 /* Screenshot05_BankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05_BankCard.png; sourceTree = "<group>"; };
+		4FA1177528066D180028B985 /* Screenshot04_BankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04_BankCard.png; sourceTree = "<group>"; };
+		4FA1177628066D190028B985 /* Screenshot03_BankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03_BankCard.png; sourceTree = "<group>"; };
+		4FA1177728066D190028B985 /* Screenshot01_BankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01_BankCard.png; sourceTree = "<group>"; };
+		4FA1177828066D190028B985 /* Screenshot02_BankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02_BankCard.png; sourceTree = "<group>"; };
 		4FF8F3EE25CF5E230024C82C /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
-		4FF8F40325CF93C50024C82C /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot01.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot01.png"; sourceTree = "<group>"; };
-		4FF8F40425CF93C50024C82C /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot02.png; path = "../../../../../../скриншоты с рабочего стола/Screenshot02.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +95,11 @@
 		4FF8F3F125CF6B4F0024C82C /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				4FF8F40325CF93C50024C82C /* Screenshot01.png */,
-				4FF8F40425CF93C50024C82C /* Screenshot02.png */,
+				4FA1177728066D190028B985 /* Screenshot01_BankCard.png */,
+				4FA1177828066D190028B985 /* Screenshot02_BankCard.png */,
+				4FA1177628066D190028B985 /* Screenshot03_BankCard.png */,
+				4FA1177528066D180028B985 /* Screenshot04_BankCard.png */,
+				4FA1177428066D180028B985 /* Screenshot05_BankCard.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -152,10 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA1177C28066D190028B985 /* Screenshot01_BankCard.png in Resources */,
+				4FA1177D28066D190028B985 /* Screenshot02_BankCard.png in Resources */,
+				4FA1177B28066D190028B985 /* Screenshot03_BankCard.png in Resources */,
+				4FA1177928066D190028B985 /* Screenshot05_BankCard.png in Resources */,
+				4FA1177A28066D190028B985 /* Screenshot04_BankCard.png in Resources */,
 				4F6C0EB125C72E890088E3D6 /* LaunchScreen.storyboard in Resources */,
 				4F6C0EAE25C72E890088E3D6 /* Assets.xcassets in Resources */,
-				4FF8F40525CF93C50024C82C /* Screenshot01.png in Resources */,
-				4FF8F40625CF93C50024C82C /* Screenshot02.png in Resources */,
 				4F6C0EAC25C72E800088E3D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,12 +331,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PGDY7H2AG9;
 				INFOPLIST_FILE = BankCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KirProto.BankCard;
+				PRODUCT_BUNDLE_IDENTIFIER = KirProto.dbystruev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,12 +350,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PGDY7H2AG9;
 				INFOPLIST_FILE = BankCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KirProto.BankCard;
+				PRODUCT_BUNDLE_IDENTIFIER = KirProto.dbystruev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
